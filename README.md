@@ -32,6 +32,7 @@ To get more help, you can use
 
 It's a simple API runs over Flask RESTful. All implementation in api.py file.
 To run the server, please run
+
     $ python api.py
 
 then you can post a request on `http://localhost:5000/api/v1/nest` with the file in the body of the request
@@ -49,6 +50,7 @@ All tests related with APIs will be in `test_apis.py`
 All tests related with SQL Queries will be in `test_sql.py`
 
 To run unit tests, just run:
+
     $ python -m unittest discover
 
 
