@@ -9,20 +9,27 @@ In the beginning we need to create a virtual environment with python 3.6 or high
 
 * Task 1
 ^^^^^^^^
+
 All implementation in nest.py file, so we need to run this file.
 
 We have 2 ways to run this file
+
     * from STDIN
+
         $ cat input.json | python nest.py nesting_level_1 nesting_level_2 ... nesting_level_n
+
     * from file
+
         $ python nest.py nesting_level_1 nesting_level_2 ... nesting_level_n -f input.json
 
 To get more help, you can use
+
     $ python nest.py -h
 
 
 * Task 2
 ^^^^^^^^
+
 It's a simple API runs over Flask RESTful. All implementation in api.py file.
 To run the server, please run
     $ python api.py
@@ -35,6 +42,7 @@ to the request with value `Token secret-token-1`.
 
 * Unit tests
 ^^^^^^^^^^^^
+
 I added unit tests for the most of the application, all tests in the folder tests and splits into multiple files.
 All tests related with python script will be in `test_nest.py`
 All tests related with APIs will be in `test_apis.py`
@@ -46,6 +54,7 @@ To run unit tests, just run:
 
 SQL
 ---
+
 All queries you can find it in query.sql file.
 For the requirements 1 and 2, I added more than a solution to solve it, I tried to do my best to find the
 most efficient way to solve the problem in a short time. So you can see multiple solutions for each one.
